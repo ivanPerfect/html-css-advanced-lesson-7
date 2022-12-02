@@ -1,0 +1,10 @@
+footer {
+  height: 30px;
+  background-color: aqua;
+}
+footer small {
+  font-size: 10px;
+  position: relative;
+  left: 40%;
+  top: 5px;
+}/*# sourceMappingURL=footer.css.map */

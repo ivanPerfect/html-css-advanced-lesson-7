@@ -1,0 +1,23 @@
+$size:100px;
+$color1: #53ab0b;
+
+@import 'nav';
+@import 'article';
+@import 'footer';
+@import 'mixin';
+
+header {
+    background-color: $color1;
+    height: $size*5;
+    @include border(10px);
+    margin: 10px;
+    h1 {
+        position: relative;
+        left: 40%;
+        width: $size*30;
+        color: black;
+    }
+}
+section {
+    display: flex;
+}

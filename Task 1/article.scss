@@ -1,0 +1,20 @@
+$color1: #e6f707;
+$color2: #0b34ec;
+$size:100px;
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color2;
+    @include border(20px);
+    margin: 10px;
+    padding: 10px;
+    div {
+        background-color: $color1;
+        width: $size*2;
+        @include border(20px);
+        height: $size*2;
+        margin: 10px;
+        padding: 10px;
+    }
+}

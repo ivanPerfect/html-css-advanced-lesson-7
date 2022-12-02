@@ -1,0 +1,20 @@
+$color3: #f58080;
+$color4:#e6f707;
+$size:100px;
+@import 'mixin';
+nav {
+    width: $size*2;
+    @include border(10px);
+    background-color: $color3;
+    margin: 10px;
+    h4 {
+        text-align: center;
+    }
+    li {
+        @include border(10px);
+        a {
+            color: rgb(71, 250, 0);
+            text-decoration: none;
+            }
+    }
+}

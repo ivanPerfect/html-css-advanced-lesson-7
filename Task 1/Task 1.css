@@ -1,0 +1,61 @@
+nav {
+  width: 200px;
+  border-radius: 10px;
+  background-color: #f58080;
+  margin: 10px;
+}
+nav h4 {
+  text-align: center;
+}
+nav li {
+  border-radius: 10px;
+}
+nav li a {
+  color: rgb(71, 250, 0);
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0b34ec;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+article div {
+  background-color: #e6f707;
+  width: 200px;
+  border-radius: 20px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  border-radius: 20px;
+  height: 50px;
+  background-color: #f58080;
+}
+footer small {
+  position: relative;
+  left: 550px;
+  top: 10px;
+}
+
+header {
+  background-color: #f58080;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+}
+header h1 {
+  position: relative;
+  left: 40%;
+  width: 300px;
+  color: black;
+}
+
+section {
+  display: flex;
+}/*# sourceMappingURL=Task 1.css.map */

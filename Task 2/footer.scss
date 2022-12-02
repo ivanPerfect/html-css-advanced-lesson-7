@@ -1,0 +1,13 @@
+$size:10px;
+$color:aqua;
+
+footer {
+    height: $size*3;
+    background-color: $color;
+    small {
+        font-size: $size;
+        position: relative;
+        left:40%;
+        top: $size/2;
+    }
+}

@@ -1,0 +1,10 @@
+footer {
+  border-radius: 20px;
+  height: 50px;
+  background-color: #f58080;
+}
+footer small {
+  position: relative;
+  left: 550px;
+  top: 10px;
+}/*# sourceMappingURL=footer.css.map */

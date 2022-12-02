@@ -1,0 +1,19 @@
+$navSize: 100px;
+$color:black;
+nav {
+    width: $navSize*2;
+    background-color: lighten(yellow,20%);
+    h2 {
+        margin: 10px;
+        width: $navSize*1.5;
+        $colorA : red;
+        @each $a in $colorA {
+            a {
+                text-decoration: none;
+                color: $colorA;
+                margin: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+}

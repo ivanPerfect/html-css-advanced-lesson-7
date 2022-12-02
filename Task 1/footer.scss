@@ -1,0 +1,14 @@
+$size:10px;
+$color1: #f58080;
+$color2: #53ab0b;
+@import 'mixin';
+footer {
+    @include border(20px);
+    height: $size*5;
+    background-color: $color1;
+    small {
+        position: relative;
+        left: 55*$size;
+        top:$size;
+    }
+}

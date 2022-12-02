@@ -1,0 +1,26 @@
+$headerSize:20px;
+$color:green;
+
+@import 'article';
+@import 'nav';
+@import 'footer';
+
+header {
+    background-color: lighten($color, 40%);
+    height: $headerSize*4;
+    h1 {
+        width: $headerSize*15;
+        position: relative;
+        left: 40%;
+        top: $headerSize;
+        @if $headerSize >10px {
+            color: black;
+        }
+        @else {
+            color:red;
+        }
+    }
+}
+section {
+    display: flex;
+}

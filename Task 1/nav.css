@@ -1,0 +1,16 @@
+nav {
+  width: 200px;
+  border-radius: 10px;
+  background-color: #f58080;
+  margin: 10px;
+}
+nav h4 {
+  text-align: center;
+}
+nav li {
+  border-radius: 10px;
+}
+nav li a {
+  color: rgb(71, 250, 0);
+  text-decoration: none;
+}/*# sourceMappingURL=nav.css.map */
